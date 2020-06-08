@@ -8,4 +8,6 @@ $(function(){
 	console.log("Nombre de toutes las balise du document : "+$('*').length);
 	console.log($('*')[0]);
 	$('.rouge').css('background','red').css('color','yellow');
+	console.log("===============================================================");
+	console.log($('a[href]')[0]);
 });
