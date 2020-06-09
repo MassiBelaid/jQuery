@@ -5,10 +5,10 @@ $(function(){
 	//Image dont l'attributtitlecontient le mot « animal » délimité par un espace. (canard, chat, chien)
 	//$('[title~="animal"]').css('border-color','red');
 	
-	//Image dont l'attributsrcse termine par « e.jpg ». (girafe)
+	//Image dont l'attribut src se termine par « e.jpg ». (girafe)
 	//$('[src$="e.jpg"]').css('border-color','red');
 	
-	//Image qui ne possède pas un attributborderégal à « 15 ». (tous)
+	//Image qui ne possède pas un attribu tborder égal à « 15 ». (tous)
 	//$('[border!="15"]').css('border-color','red');
 	
 	//Image dont l'attributsrccommence par « ch ». (chat, cheval, chien)
@@ -68,15 +68,15 @@ $(function(){
 	
 	
 	
-	$('#divhidden').hide(); // pourcacher l'élément avec l'id : divhidden
+	$('#divhidden').hide(); // pour cacher l'élément avec l'id : divhidden
 	
-	//selectionner tous les titres
+	//selectionner tous les titres h1, h2,....h6
 	$(':header').css('color','red');
 	
 	//Affichage des éléments chachés
 	$('div:hidden').show();
 	
-	//Dissimulation de tous les titres sauf le titre<h1>
+	//Dissimulation de tous les titres sauf le titre <h1>
 	$(':header:not(h1)').hide();
 	
 	
