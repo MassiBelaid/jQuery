@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Gestion des événements pour formulaires</title>
+	  <link rel="stylesheet" href="../css/index.css">
+  </head>
+  
+  <body>
+	  
+	  <form>
+		  Cliquez sur les zones de texte<p>
+		  <input type="text" class="f" id="Zone-de-texte-1"><p>
+		  <input type="text" class="f" id="Zone-de-texte-2"><br />
+	  </form><br/>
+	  
+	  Focus : <span id="resultat"></span><br />
+	  Perte de focus : <span id="resultat2"></span><br/><br/><br/>
+	  
+	  <form>
+		  Cliquez sur les zones de texte<p>
+		  <fieldset id="premier">
+			  <legend>Premier groupe</legend>
+			  <input type="text" class="f1" id="Zone-texte-1"><p>
+			  <input type="text" class="f1" id="Zone-texte-2"><br />
+		  </fieldset>
+
+		  <fieldset id="deuxieme">
+			  <legend>Deuxième groupe</legend>
+			  <input type="text" class="f1" id="Zone-de-texte-3"><p>
+			  <input type="text" class="f1" id="Zone-de-texte-4"><br />
+		  </fieldset>
+	  </form><br />
+
+	  Focus : <span id="result"></span><br />
+	  Perte de focus : <span id="result2"></span>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="../js/EvenementForm.js"></script>
+  </body>
+</html>
